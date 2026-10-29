@@ -5,6 +5,6 @@ Install qemu to emulate the os.
 #### Installation
 In the terminal, type
 ```
-make run
+qemu-system-i386 -drive format=raw,file=code.bin
 ```
 Done!
